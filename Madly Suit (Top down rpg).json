@@ -761,6 +761,14 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/8da4e5aca8a865dab002f604f798daaff1c2cd9f3f9171f60638b2c20f65852a_Male Character 8_Walking Up_3.png",
           "name": "Male Character 8_Walking Up_3.png"
         }
+      },
+      {
+        "file": "../../../../Downloads/CoolSchool_tileset_48px/CoolSchool_for_MV_MZ/coolschool_B.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\Downloads\\CoolSchool_tileset_48px\\CoolSchool_for_MV_MZ\\coolschool_B.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

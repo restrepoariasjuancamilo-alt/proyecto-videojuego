@@ -763,6 +763,7 @@
         }
       },
       {
+<<<<<<< HEAD
         "file": "assets/Female Character 10_Walking Down_1.png",
         "kind": "image",
         "metadata": "",
@@ -905,6 +906,14 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/c510054d887b265df5f62fedcf3bf5f3f08fbf9da662531a76a0f81bb8dc89aa_Female Character 10_Walking Up_3.png",
           "name": "Female Character 10_Walking Up_3.png"
         }
+=======
+        "file": "../../../../Downloads/CoolSchool_tileset_48px/CoolSchool_for_MV_MZ/coolschool_B.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\Downloads\\CoolSchool_tileset_48px\\CoolSchool_for_MV_MZ\\coolschool_B.png",
+        "smoothed": true,
+        "userAdded": false
+>>>>>>> e1870c04035f6a348cc2faa4eed374616da08a12
       }
     ],
     "resourceFolders": []

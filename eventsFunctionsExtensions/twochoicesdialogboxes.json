@@ -1693,6 +1693,297 @@
             }
           ],
           "editionSettings": []
+        },
+        {
+          "areaMaxX": 600,
+          "areaMaxY": 213,
+          "areaMaxZ": 32,
+          "areaMinX": 0,
+          "areaMinY": 0,
+          "areaMinZ": 0,
+          "assetStoreAssetId": "9d5de415b6e469c681701ea42d3b1c486fee31d6ef591a2d3e226f639ab486ff",
+          "assetStoreOriginalName": "Semi-transparent black and white",
+          "name": "Semi-transparent black and white",
+          "objects": [
+            {
+              "assetStoreId": "",
+              "name": "NoButton",
+              "type": "PanelSpriteButton::PanelSpriteButton",
+              "variant": "Semi-transparent black and white",
+              "variables": [
+                {
+                  "name": "ID",
+                  "type": "number",
+                  "value": 0
+                }
+              ],
+              "effects": [
+                {
+                  "effectType": "Outline",
+                  "name": "OutlineEffect",
+                  "doubleParameters": {
+                    "padding": 0,
+                    "thickness": 2
+                  },
+                  "stringParameters": {
+                    "color": "255;255;255"
+                  },
+                  "booleanParameters": {}
+                }
+              ],
+              "behaviors": [
+                {
+                  "name": "Anchor",
+                  "type": "AnchorBehavior::AnchorBehavior",
+                  "bottomEdgeAnchor": 2,
+                  "leftEdgeAnchor": 0,
+                  "relativeToOriginalWindowSize": true,
+                  "rightEdgeAnchor": 2,
+                  "topEdgeAnchor": 0,
+                  "useLegacyBottomAndRightAnchors": false
+                }
+              ],
+              "content": {
+                "PressedLabelOffsetY": 0,
+                "LabelText": "No"
+              }
+            },
+            {
+              "assetStoreId": "",
+              "name": "YesButton",
+              "type": "PanelSpriteButton::PanelSpriteButton",
+              "variant": "Semi-transparent black and white",
+              "variables": [
+                {
+                  "name": "ID",
+                  "type": "number",
+                  "value": 0
+                }
+              ],
+              "effects": [
+                {
+                  "effectType": "Outline",
+                  "name": "OutlineEffect",
+                  "doubleParameters": {
+                    "padding": 0,
+                    "thickness": 2
+                  },
+                  "stringParameters": {
+                    "color": "255;255;255"
+                  },
+                  "booleanParameters": {}
+                }
+              ],
+              "behaviors": [
+                {
+                  "name": "Anchor",
+                  "type": "AnchorBehavior::AnchorBehavior",
+                  "bottomEdgeAnchor": 2,
+                  "leftEdgeAnchor": 0,
+                  "relativeToOriginalWindowSize": true,
+                  "rightEdgeAnchor": 2,
+                  "topEdgeAnchor": 0,
+                  "useLegacyBottomAndRightAnchors": false
+                }
+              ],
+              "content": {
+                "PressedLabelOffsetY": 0,
+                "LabelText": "Yes"
+              }
+            },
+            {
+              "assetStoreId": "",
+              "bottomMargin": 16,
+              "height": 48,
+              "leftMargin": 16,
+              "name": "TextBorder",
+              "rightMargin": 16,
+              "texture": "Border.png2",
+              "tiled": true,
+              "topMargin": 16,
+              "type": "PanelSpriteObject::PanelSprite",
+              "width": 48,
+              "variables": [],
+              "effects": [],
+              "behaviors": [
+                {
+                  "name": "Anchor",
+                  "type": "AnchorBehavior::AnchorBehavior",
+                  "bottomEdgeAnchor": 2,
+                  "leftEdgeAnchor": 1,
+                  "relativeToOriginalWindowSize": true,
+                  "rightEdgeAnchor": 2,
+                  "topEdgeAnchor": 1,
+                  "useLegacyBottomAndRightAnchors": false
+                }
+              ]
+            },
+            {
+              "assetStoreId": "",
+              "name": "Dialogue",
+              "type": "BitmapText::BitmapTextObject",
+              "variables": [],
+              "effects": [],
+              "behaviors": [
+                {
+                  "name": "Anchor",
+                  "type": "AnchorBehavior::AnchorBehavior",
+                  "bottomEdgeAnchor": 2,
+                  "leftEdgeAnchor": 1,
+                  "relativeToOriginalWindowSize": true,
+                  "rightEdgeAnchor": 2,
+                  "topEdgeAnchor": 1,
+                  "useLegacyBottomAndRightAnchors": false
+                }
+              ],
+              "content": {
+                "text": "Default message. Continue?",
+                "opacity": 255,
+                "scale": 2,
+                "fontSize": 20,
+                "tint": "255;255;255",
+                "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt2",
+                "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited.png2",
+                "align": "left",
+                "wordWrap": true,
+                "verticalTextAlignment": "top"
+              }
+            }
+          ],
+          "objectsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "objectName": "Dialogue"
+              },
+              {
+                "objectName": "TextBorder"
+              },
+              {
+                "objectName": "YesButton"
+              },
+              {
+                "objectName": "NoButton"
+              }
+            ]
+          },
+          "objectsGroups": [
+            {
+              "name": "Buttons",
+              "objects": [
+                {
+                  "name": "NoButton"
+                },
+                {
+                  "name": "YesButton"
+                }
+              ]
+            }
+          ],
+          "layers": [
+            {
+              "ambientLightColorB": 200,
+              "ambientLightColorG": 200,
+              "ambientLightColorR": 200,
+              "camera3DFarPlaneDistance": 10000,
+              "camera3DFieldOfView": 45,
+              "camera3DNearPlaneDistance": 3,
+              "cameraType": "",
+              "followBaseLayerCamera": false,
+              "isLightingLayer": false,
+              "isLocked": false,
+              "name": "",
+              "renderingType": "",
+              "visibility": true,
+              "cameras": [
+                {
+                  "defaultSize": true,
+                  "defaultViewport": true,
+                  "height": 0,
+                  "viewportBottom": 1,
+                  "viewportLeft": 0,
+                  "viewportRight": 1,
+                  "viewportTop": 0,
+                  "width": 0
+                }
+              ],
+              "effects": []
+            }
+          ],
+          "instances": [
+            {
+              "angle": 0,
+              "customSize": true,
+              "depth": 1,
+              "height": 124,
+              "layer": "",
+              "name": "Dialogue",
+              "persistentUuid": "c7183394-9ca6-4c16-9d13-f0b7cfe803d8",
+              "width": 554,
+              "x": 19,
+              "y": 18,
+              "zOrder": 45,
+              "numberProperties": [],
+              "stringProperties": [],
+              "initialVariables": []
+            },
+            {
+              "angle": 0,
+              "customSize": true,
+              "depth": 0,
+              "height": 213,
+              "layer": "",
+              "name": "TextBorder",
+              "persistentUuid": "639d5661-817d-4faa-b33b-c0ff129c309a",
+              "width": 600,
+              "x": 0,
+              "y": 0,
+              "zOrder": 43,
+              "numberProperties": [],
+              "stringProperties": [],
+              "initialVariables": []
+            },
+            {
+              "angle": 0,
+              "customSize": true,
+              "depth": 32,
+              "height": 36,
+              "layer": "",
+              "name": "YesButton",
+              "persistentUuid": "a0ca78d3-0a23-4bbe-89de-fb2d0a53996c",
+              "width": 105,
+              "x": 350,
+              "y": 160,
+              "zOrder": 510,
+              "numberProperties": [],
+              "stringProperties": [],
+              "initialVariables": []
+            },
+            {
+              "angle": 0,
+              "customSize": true,
+              "depth": 32,
+              "height": 36,
+              "layer": "",
+              "name": "NoButton",
+              "persistentUuid": "6781aafa-3ae9-4820-bb97-682a524a0cf6",
+              "width": 103,
+              "x": 471,
+              "y": 160,
+              "zOrder": 510,
+              "numberProperties": [],
+              "stringProperties": [],
+              "initialVariables": [
+                {
+                  "name": "ID",
+                  "persistentUuid": "bb563dbe-93eb-4412-b843-f60016b9a893",
+                  "type": "number",
+                  "value": 1
+                }
+              ]
+            }
+          ],
+          "editionSettings": {}
         }
       ]
     }
